@@ -1,0 +1,32 @@
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+please enter file path: 
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+please enter product name: Item: 7
+Name: James Bond
+Quantity: 1
+Price: 9999.00
+Author: Ian Fleming 
+Year of publication: 1962
+Length: 6540
+-----
+
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+

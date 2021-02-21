@@ -1,0 +1,12 @@
+Test ended with status: [failed]
+Test ID: [5]
+Test description: [Add file, print by name]
+Info message: [An error has occurred: Test run exceeded [400] ms timeout.]
+
+Exit code was: [null]
+
+Output check: [not_checked]
+
+
+Error check: [not_checked]
+

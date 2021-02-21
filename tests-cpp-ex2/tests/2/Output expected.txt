@@ -1,0 +1,32 @@
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+please enter file path: 
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+please enter catalog id: Item: 126
+Name: Wooden chair 
+Quantity: 500
+Price: 25.00
+Dimensions: 1.50 0.80 0.80
+Material: wood
+Color: Salmon
+-----
+
+1. Input stock from file
+2. Find item by catalog number
+3. Find item by name
+4. Print stock by catalog number
+5. Print stock by name
+6. Sell item
+7. Exit
+

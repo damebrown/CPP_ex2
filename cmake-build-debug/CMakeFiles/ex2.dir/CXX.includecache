@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/user/Documents/2nd/C++/ex2/Product.cpp
+iostream
+-
+iomanip
+-
+Product.h
+/cygdrive/c/Users/user/Documents/2nd/C++/ex2/Product.h
+
+/cygdrive/c/Users/user/Documents/2nd/C++/ex2/Product.h
+vector
+-
+string
+-
+iostream
+-
+sstream
+-
+iomanip
+-
+

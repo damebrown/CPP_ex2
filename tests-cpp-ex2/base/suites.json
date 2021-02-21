@@ -1,0 +1,117 @@
+[
+  {
+    "skip": false,
+    "name": "good",
+    "runnable": "ikea",
+    "tests": [
+      {
+        "name": "temp",
+        "type": "file",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, look for valid item id",
+        "input": "1\nfiles/example.txt\n2\n126\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, look for valid item name",
+        "input": "1\nfiles/example.txt\n3\nJames Bond\n\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, print by id",
+        "input": "1\nfiles/example.txt\n4\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, print by name",
+        "input": "1\nfiles/example.txt\n5\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "name": "Two adds",
+        "description": "Add file, print by id, add again, print by name",
+        "input": "1\nfiles/example.txt\n4\n1\nfiles/example.txt\n5\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      }
+    ]
+  },
+  {
+    "skip": false,
+    "name": "bad",
+    "runnable": "ikea",
+    "tests": [
+      {
+        "description": "Add file with invalid name",
+        "input": "1\nasdf\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, look for non-existing item id",
+        "input": "1\nfiles/example.txt\n2\n2346234\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, look for invalid item id (a string)",
+        "input": "1\nfiles/example.txt\n2\nasdf\n\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      },
+      {
+        "description": "Add file, look for non-existing item name",
+        "input": "1\nfiles/example.txt\n3\nNothing like me\n\n7\n",
+        "output_check": {
+          "type": "equals"
+        },
+        "error_check": {
+          "type": "equals"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+1
+files/example.txt
+3
+James Bond
+
+7

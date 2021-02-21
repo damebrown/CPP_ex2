@@ -1,0 +1,39 @@
+C++ - Summer Course Ex2 Tester.
+version 1.0
+
+Created by Ofek Rafaeli
+
+Feel free to improve the tester and to share it.
+
+Installation:
+1. Unzip everything to the directory on which same level as your c++ program files (everything that
+is in the tar - tests.py, README, file_tests, school_reader)
+
+2. Open  the running directory in the shell (navigate to the location your files are located)
+
+3. Run the following: python tests.py
+
+
+note that the tester assumes you have a valid makefile that compiles your code correctly.
+essentially, the tester runs your solution and the school solution on a bunch of files, and
+compares the two.
+
+We have 3 tests:
+
+1. school_examples - running tests that were given to us by the school.
+
+2. negative syntax - testing whether or not you correctly identify problematic (ie- negative value)
+inputs. note that you might act correctly while not printing the exact format the school does - and
+thus it is ok. compare your results and verify :)
+
+3. selling and printing - testing if you print and sell correctly. note that because the school
+solution currently requires an additional  line break after choosing the option 3 - it is not
+tested.
+
+4. valgrind tests - testing whether or not you free your allocated memory. this test runs all the
+tests above using valgrind and checks that you free correctly (ie, valgrind prints the sentance:
+"All heap blocks were freed -- no leaks are possible".
+
+as ususal - don't relay solely on these tests and do some other sanity checks on your own, bla bla bla.
+
+enjoy!
